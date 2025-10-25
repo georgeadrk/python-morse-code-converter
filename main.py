@@ -20,7 +20,7 @@ def main() -> None:
     user_input: str = input('Enter text: ')
     output: str = convert_to_morse(user_input)
 
-    print(output)
+    print(f'Result: {output}')
 
 if __name__ == '__main__':
     main()
